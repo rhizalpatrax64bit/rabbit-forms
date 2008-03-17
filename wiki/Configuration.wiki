@@ -40,14 +40,14 @@ fields:
     anotherField:
         type: Type
         label: Label
-retrive:
+retrieve:
     manage: controller/method/
     remove: controller/method/
     fields:
         -field_name
         -anotherField
     view:
-        template: retrive_view
+        template: retrieve_view
         params:
             param1: value
             param2: value
@@ -80,7 +80,7 @@ Let's see what is the base configuration data:
 || primary_key || the primary key field of table, this will be used to edit and other internal things || false ||
 || form || this configuration maintain the form configuration, see more bellow || false ||
 || fields || this maintains fields configuration, see more bellow || true ||
-|| retrive || this maintains the retrieval configuration (more bellow too =P) || true ||
+|| retrieve || this maintains the retrieval configuration (more bellow too =P) || true ||
 || redirect || the path to redirect after form successfully operation (create or edit) || false ||
 
 == Form Configuration ==
