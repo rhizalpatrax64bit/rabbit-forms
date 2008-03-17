@@ -80,11 +80,11 @@ Oh yeah, you will take to a ugly page with a link to add a new record, and a tab
 
 And at is guys, this is a simple quickstart to see anything working, please read the other wiki pages to see how to make wounder full things like:
 
- - [Configuration understanding the configuration file]
- - [Templating customize layout]
- - [Fields all featured fields]
- - [Validations all featured validators]
- - [FieldExtend extending fields]
- - [ValidationExtend extending validators]
+  * [Configuration understanding the configuration file]
+  * [Templating customize layout]
+  * [Fields all featured fields]
+  * [Validations all featured validators]
+  * [FieldExtend extending fields]
+  * [ValidationExtend extending validators]
 
 and much more ;)
