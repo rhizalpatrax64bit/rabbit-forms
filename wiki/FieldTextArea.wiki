@@ -1,11 +1,11 @@
-#summary This page describle how to use TextArea field
+#summary This page describe how to use TextArea field
 #labels Phase-Implementation
 
 = !TextArea Field =
 
 == Description ==
 
-This is the simpleste field of all Rabbit Forms, this field is a simple textarea to write multi-line text.
+This is the simplest field of all Rabbit Forms, this field is a simple textarea to write multi-line text.
 
 == Attributes ==
 
