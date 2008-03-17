@@ -22,4 +22,4 @@ Thanks for coders of these great libraries :)
 || style || This attribute defines a inline style to be added to textbox html || width: 300px; ||
 || mode || This attribute is used when you want to use text box as password field, when you put password in this attribute the user input will me not readable and when the form refill fields this field will not be refilled || password ||
 || mask || This is one killer feature, by simple adding this attribute you can created masked text box input, to know about how to use mask patterns check at [http://digitalbush.com/projects/masked-input-plugin plugin page] || 99/99/9999 ||
-|| watermark || This attribute provide a way to add a simple watermark to field, know more at [http://digitalbush.com/projects/watermark-input-plugin plugin page] || User Login ||
+|| watermark || This attribute provide a way to add a simple watermark to field, know more at [http://digitalbush.com/projects/watermark-input-plugin plugin page] || Enter your login here ||
