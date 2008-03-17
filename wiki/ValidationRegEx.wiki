@@ -1,4 +1,4 @@
-#summary This page describe how to use Compare Validation
+#summary This page describe how to use RegEx Validation
 #labels Phase-Implementation
 
 = !RegEx Validation =
