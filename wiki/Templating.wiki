@@ -1,5 +1,5 @@
 #summary This page describles how to customize templates of Rabbit Forms to make it apropriated to your site
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 = Rabbit Form Templates =
 
@@ -95,6 +95,13 @@ You will see this!
 
 http://img221.imageshack.us/img221/4128/formshotar3.gif
 
+*Basic Form Template Parameters*
+
+List of basic form template parameters
+
+|| *Parameter* || *Default* || *Description* ||
+|| submitText || OK || The text to be displayed into submit button (you can use HTML) ||
+
 And this is all about form basic templating, i know you can do better than me ;)
 
 === Retrive Template ===
@@ -167,10 +174,91 @@ You will see this!
 
 http://img233.imageshack.us/img233/9462/retrivestylezedqd0.jpg
 
+*Basic Form Template Parameters*
+
+List of basic form template parameters
+
+|| *Parameter* || *Default* || *Description* ||
+|| addText || Add new record || HTML to display into add record link ||
+|| tableSpacing || 2 || Cell spacing of table ||
+|| editText || edit || HTML to display into edit link ||
+|| removeText || remove || HTML to display into remove link ||
+
+And that is all, see following sections to know how to use _Advanced Templating_.
+
 == Advanced Templating ==
 
+The advanced templating is really simple, basically you copy one of basic templates and edit it for your needs, and you can use template parameters to able customizations into your template. To use parameters you will use the _$param_ variable, this is one object and the only method you will need to use is *$param->get('paramToGet', 'defaultValue')*.
 
+To use your templates you need to configure it, you can configure it at form configuration level (in YML file) or by setting your template as default (in rabbit-forms configuration). To see details about where is to configure it see wiki configuration at wiki.
+
+See below details about each template type.
 
 === Form Template ===
 
+At first, see variables provided to this template:
+
+|| *Variable* || *Description* ||
+|| form_assets || This variable contains the form assets, it needs to be in top of template to load needed resources for fields (ps: this variable will be an empty string if  _auto_assets_ is set to _false_ ||
+|| form_open || This variable contains the string that open form ||
+|| form_hidden || This variable contains the form hidden fields ||
+|| form_close || This variable contains the string that close form ||
+|| form_exec || This variable contains form script to be executed (each field can add these script executions) ||
+|| fields || This variable in one associative array containing form fields (details below) ||
+
+Each item into fields variable contains:
+
+|| *Variable* || *Description* ||
+|| label || The label of field ||
+|| component || HTML string of field ||
+|| validation || The validation error message ||
+
+In a basic way you will use the variables of form and a foreach to put fields in that place, but, for your convenience (and to able high custom forms) the array containing fields is associative, and the keys is the field name. With this information you can create templates for specific forms putting each field in one way; the code above demonstrate this use:
+
+{{{
+<?= $form_assets ?>
+<?= $form_open ?>
+<?= $form_hidden ?>
+<table>
+    <tr>
+        <td><?= $fields['name']['label'] ?></td>
+        <td><?= $fields['name']['component'] ?><br /><?= $fields['name']['validation'] ?></td>
+        <td><?= $fields['login']['label'] ?></td>
+        <td><?= $fields['login']['component'] ?><br /><?= $fields['login']['validation'] ?></td>
+    </tr>
+    <tr>
+        <td><?= $fields['email']['label'] ?></td>
+        <td colspan="3"><?= $fields['email']['component'] ?><br /><?= $fields['email']['validation'] ?></td>
+    </tr>
+    <tr>
+        <td><?= $fields['password']['label'] ?></td>
+        <td><?= $fields['password']['component'] ?><br /><?= $fields['password']['validation'] ?></td>
+        <td><?= $fields['passconfirm']['label'] ?></td>
+        <td><?= $fields['passconfirm']['component'] ?><br /><?= $fields['passconfirm']['validation'] ?></td>
+    </tr>
+</table>
+<button type="submit" class="rabbit-form-submit"><?= $params->get('submitText', 'OK') ?></button>
+<?= $form_close ?>
+<?= $form_exec ?>
+}}}
+
+This template will output:
+
+http://img217.imageshack.us/img217/6933/advancedformuu3.jpg
+
+And that is all, is not so hard uh?
+
 === Retrive Template ===
+
+The retrive template follow the same path of form template, below is the variables that you can use:
+
+|| *Variable* || *Description* ||
+|| fields || Simple array containg field labels ||
+|| rows || The rows variable is one array containg rows data of each row (see details below) ||
+|| kfields || This simple array contains fields key data ||
+
+Each row entry has row data in one associative array (the keys is the field name)
+
+== Summary ==
+
+This page describled how to customize templates for use Rabbit Forms into your site, any questions post into wiki page comments.
