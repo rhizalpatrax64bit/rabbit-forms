@@ -1,0 +1,6 @@
+#summary This page describes how to use Rabbit Language
+#labels Phase-Implementation
+
+= Rabbit Language =
+
+Rabbit language is simple, it's only a language file following CI patterns. Check [http://codeigniter.com/user_guide/libraries/language.html CodeIgniter language reference] for more information.
