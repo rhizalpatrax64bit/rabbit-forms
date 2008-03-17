@@ -1,7 +1,7 @@
 #summary This page describe how to use Email Validation
 #labels Phase-Implementation
 
-= Compare Validation =
+= Email Validation =
 
 == Description ==
 
