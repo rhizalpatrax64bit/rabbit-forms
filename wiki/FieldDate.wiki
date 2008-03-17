@@ -7,7 +7,11 @@
 
 This field provides a customizable calendar field, by the first view it appears to be a simple text box field, but when user clicks in the field one pop up calendar is displayed to user select date.
 
+== External resources ==
+
 The calendar javascript code is provided by [http://marcgrabanski.com/code/ui-datepicker/ jQuery UI Datepicker] and you can check this page for more information about calendar.
+
+Thanks for coders of this great library :)
 
 == Attributes ==
 
