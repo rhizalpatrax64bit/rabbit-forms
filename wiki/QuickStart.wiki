@@ -48,12 +48,12 @@ fields:
             - type: Compare
               params:
                   compareTo: password
-retrive:
+retrieve:
     fields:
         -name
         -login
         -email
-redirect: 'rabbitcontrol/retrive/users'
+redirect: 'rabbitcontrol/retrieve/users'
 }}}
 
 The table creation:
@@ -74,7 +74,7 @@ Save this file with name users.yml in folder "application/rabbit-forms/forms", y
 
 Next step, after the file is saved you can use this by Rabbit Controller, simple access the url:
 
-http://yoursite.com/rabbitcontroller/retrive/users
+http://yoursite.com/rabbitcontroller/retrieve/users
 
 Oh yeah, you will take to a ugly page with a link to add a new record, and a table displaying saved records, you can test this at time. The layout of this controller will be improved in next versions ;)
 
