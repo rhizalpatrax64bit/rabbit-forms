@@ -1,4 +1,4 @@
-#summary This page describle how to use CheckBox field
+#summary This page describe how to use CheckBox field
 #labels Phase-Implementation
 
 = !CheckBox Field =
@@ -10,5 +10,5 @@ This is a simple checkbox, the value of this field will be ever 0 (for non-check
 == Attributes ==
 
 || *Attribute* || *Description* || *Example* ||
-|| class || This attribute defines a class to be added to textarea html || checkboxClass ||
-|| style || This attribute defines a inline style to be added to textarea html || border: 1px solid #aaa; ||
+|| class || This attribute defines a class to be added to checkbox input html || checkboxClass ||
+|| style || This attribute defines a inline style to be added to checkbox input html || border: 1px solid #aaa; ||
