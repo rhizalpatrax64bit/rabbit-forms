@@ -1,5 +1,5 @@
 #summary Installing Rabbit Forms
-#labels Phase-Implementation,Phase-Deploy
+#labels Phase-Implementation,Phase-Deploy,Featured
 
 = Installing =
 
