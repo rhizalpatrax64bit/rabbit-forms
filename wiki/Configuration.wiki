@@ -1,5 +1,5 @@
 #summary Learn all about Rabbit-Forms configuration
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 = Configuration =
 
