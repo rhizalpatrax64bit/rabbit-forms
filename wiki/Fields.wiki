@@ -7,6 +7,8 @@ The fields is the soul of forms, and Rabbit Forms provide a great gamma of field
 
 == Field List ==
 
+This is a list of Rabbit Forms fields, click at field name for see details.
+
 || *Field* || *Description* ||
 || [FieldCheckBox CheckBox] || Simple checkbox field ||
 || [FieldCheckBoxGroup CheckBoxGroup] || A group of checkbox ||
