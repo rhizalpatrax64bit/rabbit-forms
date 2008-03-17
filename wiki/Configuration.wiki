@@ -41,6 +41,8 @@ fields:
         type: Type
         label: Label
 retrive:
+    manage: controller/method/
+    remove: controller/method/
     fields:
         -field_name
         -anotherField
