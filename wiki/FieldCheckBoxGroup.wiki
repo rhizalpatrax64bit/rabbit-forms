@@ -1,7 +1,7 @@
 #summary This page describle how to use CheckBoxGroup field
 #labels Phase-Implementation
 
-= Check Box Group Field =
+= !CheckBoxGroup Field =
 
 == Description ==
 
