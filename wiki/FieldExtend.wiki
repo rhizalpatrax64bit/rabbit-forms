@@ -73,7 +73,7 @@ Sometimes the data of field do not come exactly in the way that field needs to b
 
 To perform this operation you can overwrite the methods *getValue* and *setValue* of field.
 
-One example of this behavior is when you receive a checkbox group, the value passed in post data to checkbox is one PHP array and not a string, in this case the function *serialize* of PHP is used to make a db-save version of data and *unserialize* to retrive original data.
+One example of this behavior is when you receive a checkbox group, the value passed in post data to checkbox is one PHP array and not a string, in this case the function *serialize* of PHP is used to make a db-save version of data and *unserialize* to retrieve original data.
 
 example:
 
