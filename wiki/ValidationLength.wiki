@@ -1,7 +1,7 @@
 #summary This page describe how to use Length Validation
 #labels Phase-Implementation
 
-= Compare Validation =
+= Length Validation =
 
 == Description ==
 
