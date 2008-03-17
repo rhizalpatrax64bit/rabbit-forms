@@ -1,17 +1,17 @@
-#summary This page describle how to use List field
+#summary This page describe how to use List field
 #labels Phase-Implementation
 
 = List Field =
 
 == Description ==
 
-This field is a abstract field (you can't use this in field type configuration) that provides common data manager to list field types, the actualy fields that is list type base is:
+This field is a abstract field (you can't use this in field type configuration) that provides common data manager to list field types, the actually fields that is list type base is:
 
   * [FieldCheckBoxGroup CheckBoxGroup]
   * [FieldDropDown DropDown]
   * [FieldRadioGroup RadioGroup]
 
-Any of these fields support List field attributes describled below.
+Any of these fields support List field attributes described below.
 
 == Attributes ==
 
@@ -38,7 +38,7 @@ fields:
 
 == Database Source Attribute ==
 
-The database source is a powerfull attribute that get a data from one database table and fills the list field, the attributes of database source is describled below:
+The database source is a powerfully attribute that get a data from one database table and fills the list field, the attributes of database source is described below:
 
 || *Attribute* || *Description* || *Example* ||
 || table || The table where the data is requested || countries ||
@@ -61,4 +61,4 @@ fields:
                 orderby: country_name asc
 }}}
 
-ps: the _asc_ can be ommited
+ps: the _asc_ can be omitted
