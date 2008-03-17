@@ -1,0 +1,25 @@
+#summary This page describe how to use TextBox field
+#labels Phase-Implementation
+
+= !TextBox Field =
+
+== Description ==
+
+This field provides text box input, at start it can be a simple text box but i put some add attributes that can make this a little bit better. Check this out!
+
+== External resources ==
+
+The masked input resource javascript is provided by [http://digitalbush.com/projects/masked-input-plugin digitalBush Masked Input Plugin]
+
+The watermark input resource javascript is provided by [http://digitalbush.com/projects/watermark-input-plugin digitalBush Watermark Input Plugin]
+
+Thanks for coders of these great libraries :)
+
+== Attributes ==
+
+|| *Attribute* || *Description* || *Example* ||
+|| class || This attribute defines a class to be added to textbox html || inputClass ||
+|| style || This attribute defines a inline style to be added to textbox html || width: 300px; ||
+|| mode || This attribute is used when you want to use text box as password field, when you put password in this attribute the user input will me not readable and when the form refill fields this field will not be refilled || password ||
+|| mask || This is one killer feature, by simple adding this attribute you can created masked text box input, to know about how to use mask patterns check at [http://digitalbush.com/projects/masked-input-plugin plugin page] || 99/99/9999 ||
+|| watermark || This attribute provide a way to add a simple watermark to field, know more at [http://digitalbush.com/projects/watermark-input-plugin plugin page] || User Login ||
