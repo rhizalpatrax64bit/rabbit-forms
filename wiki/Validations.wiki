@@ -1,0 +1,19 @@
+#summary This page is a summary of fields and link to field specific pages
+#labels Phase-Implementation,Featured
+
+= Validations =
+
+The validations has an important task to do, validate the field values. Rabbit Forms provides a set of common validations to use, and you can create your own validations too.
+
+== Validations List ==
+
+This is a list of Rabbit Forms validations, click at validation name for see details.
+
+|| *Validation* || *Description* ||
+|| [ValidationCompare Compare] || This validation operate on fields and make comparatives with then ||
+|| [ValidationEmal Email] || This is a simple e-mail pattern validation ||
+|| [ValidationLength Length] || This validation check for length restrictions in field value ||
+|| [ValidationRegEx RegEx] || This validation check for pattern restrictions in field value ||
+|| [ValidationRequired Required] || This validation force user to input data into field ||
+
+Don't found a validation for your needs? [ValidationExtend Implement it]!
