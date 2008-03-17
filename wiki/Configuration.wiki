@@ -74,7 +74,7 @@ I think you understand. In most cases you will use an YAML file to create config
 Let's see what is the base config data:
 
 || *Configuration* || *Description* || *Required* ||
-|| table || the table that will be used to make CRUD || true
+|| table || the table that will be used to make CRUD || true ||
 || primary_key || the primary key field of table, this will be used to edit and other internal things || false ||
 || form || this configuration mantain the form configuration, see more bellow || false ||
 || fields || this mantais fields configuration, see more bellow || true ||
@@ -96,12 +96,12 @@ The form configuration defines the form behaivor, the propeties to configure is:
 The fields array configuration is a key based configuration, the key will be the name of field in table, and for each field you can configure:
 
 || *Configuration* || *Description* || *Required* ||
-|| type || The type of field, this propertie set the field behaivor || true
+|| type || The type of field, this propertie set the field behaivor || true ||
 || label || The label of field || true ||
 || value || The default value of field (note: if you were in form edit, this value will be replaced by real value of field in row || false ||
-|| persist || This propertie defines if this field will be persisted in database or not (note: before save data into database, rabbit forms filter the fields to add only valid fields, use this propertie only if you has a valid field that will not be stored) || false
-|| params || Associative array that define field params (see valid params of specific field types) || false
-|| validators || Validators of field (see more bellow) || false
+|| persist || This propertie defines if this field will be persisted in database or not (note: before save data into database, rabbit forms filter the fields to add only valid fields, use this propertie only if you has a valid field that will not be stored) || false ||
+|| params || Associative array that define field params (see valid params of specific field types) || false ||
+|| validators || Validators of field (see more bellow) || false ||
 
 == Validator Configuration ==
 
@@ -125,7 +125,7 @@ The view configuration set the behaivor of a view:
 
 || *Configuration* || *Description* || *Required* ||
 || template || Template path of the view || true ||
-|| params || Associative array that defines view params (see valid params for each specific view) || false
+|| params || Associative array that defines view params (see valid params for each specific view) || false ||
 
 == Default Configuration ==
 
