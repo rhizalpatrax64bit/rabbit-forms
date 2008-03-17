@@ -1,4 +1,4 @@
-#summary This page describle how to use DropDown field
+#summary This page describe how to use DropDown field
 #labels Phase-Implementation
 
 = !DropDown Field =
@@ -12,13 +12,13 @@ This field extends the [FieldList List] field, see [FieldList List Field] descri
 == Attributes ==
 
 || *Attribute* || *Description* || *Example* ||
-|| class || This attribute defines a class to be added to textarea html || checkboxClass ||
-|| style || This attribute defines a inline style to be added to textarea html || border: 1px solid #aaa; ||
+|| class || This attribute defines a class to be added to select html || checkboxClass ||
+|| style || This attribute defines a inline style to be added to select html || border: 1px solid #aaa; ||
 || updateField || This attribute allow you to fill another dropdown data after this field data changes, see details below || see below ||
 
 == Update Field Attribute ==
 
-Is a common need of actually websites to make cascating dropdowns (after you select one option in one dropdown, another dropdown has his data change according to previous dropdown) and Rabbit Forms provides a feature to this.
+Is a common need of actually websites to make cascading dropdowns (after you select one option in one dropdown, another dropdown has his data change according to previous dropdown) and Rabbit Forms provides a feature to this.
 
 The _updateField_ attribute accept another array containing update attributes, these are:
 
