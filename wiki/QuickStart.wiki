@@ -78,13 +78,13 @@ http://yoursite.com/rabbitcontroller/retrive/users
 
 Oh yeah, you will take to a ugly page with a link to add a new record, and a table displaying saved records, you can test this at time. The layout of this controller will be improved in next versions ;)
 
-And at is guys, this is a simple quickstart to see anything working, please read the other wiki pages to see how to make wounderfull things like:
+And at is guys, this is a simple quickstart to see anything working, please read the other wiki pages to see how to make wounder full things like:
 
- - understanting the configuration file
- - customize layout
- - all feature fields
- - all feature validators
- - extending fields
- - extending validators
+ - [Configuration understanding the configuration file]
+ - [Templating customize layout]
+ - [Fields all featured fields]
+ - [Validations all featured validators]
+ - [FieldExtend extending fields]
+ - [ValidationExtend extending validators]
 
 and much more ;)
