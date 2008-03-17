@@ -1,4 +1,4 @@
-#summary This page describle how to use RadioGroup field
+#summary This page describe how to use RadioGroup field
 #labels Phase-Implementation
 
 = !RadioGroup Field =
@@ -12,5 +12,5 @@ This field extends the [FieldList List] field, see [FieldList List Field] descri
 == Attributes ==
 
 || *Attribute* || *Description* || *Example* ||
-|| class || This attribute defines a class to be added to textarea html || checkboxClass ||
-|| style || This attribute defines a inline style to be added to textarea html || border: 0; ||
+|| class || This attribute defines a class to be added to radio input html || radioClass ||
+|| style || This attribute defines a inline style to be added to radio input html || border: 0; ||
