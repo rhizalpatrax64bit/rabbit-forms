@@ -109,10 +109,10 @@ And this is all about form basic templating, i know you can do better than me ;)
 The basic template of retrieve is a basic table, this uses _thead_ and _tbody_ to separate headers from content, the html code is the below:
 
 {{{
-<div class="rabbit-retrive-add-container">
-    <a href="<?= site_url($manage) ?>" class="rabbit-retrive-add"><?= $params->get('addText', 'Add new record') ?></a>
+<div class="rabbit-retrieve-add-container">
+    <a href="<?= site_url($manage) ?>" class="rabbit-retrieve-add"><?= $params->get('addText', 'Add new record') ?></a>
 </div>
-<table class="rabbit-retrive-table">
+<table class="rabbit-retrieve-table">
     <thead>
         <tr>
             <?php foreach($fields as $field): ?>
@@ -142,7 +142,7 @@ The idea is the same, use CSS to customize defined classes.
 Sample (let's did a sample like google code table, hehe):
 
 {{{
-.rabbit-retrive-add-container {
+.rabbit-retrieve-add-container {
     background: #eee;
     border: 1px solid #aaa;
     margin: 0 2px;
@@ -150,16 +150,16 @@ Sample (let's did a sample like google code table, hehe):
     width: 105px;
 }
 
-.rabbit-retrive-table td {
+.rabbit-retrieve-table td {
     border: 1px solid #aaa;
     padding: 5px;
 }
 
-.rabbit-retrive-table thead td {
+.rabbit-retrieve-table thead td {
     font-weight: bold;
 }
 
-.rabbit-retrive-table a, .rabbit-retrive-add {
+.rabbit-retrieve-table a, .rabbit-retrieve-add {
     color: #000;
     font-style: italic;
     text-decoration: none;
