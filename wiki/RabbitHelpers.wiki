@@ -1,0 +1,12 @@
+#summary This page describes functions of Rabbit Forms helpers
+#labels Phase-Implementation
+
+= Rabbit Form Helpers =
+
+Rabbit Forms come with a helper file that provides little helper functions, this page describes these functions.
+
+|| *Function* || *Description* ||
+|| array rabbit_array_merge(array $array1, array $array2) || Recursive array merge function, if the array keys conflict, the second argument array will has precedence ||
+|| array rabbit_filter_fields(string $table, array $data) || This function get the fields of table in first argument, and use this to filter elements of array passed in second argument, this results in array containing only valid field names that passed into second argument ||
+|| array rabbit_filter_db_data(string $table, array $data) || This function work as above, but this function filter a associative array data and maintains only valid rows ||
+|| string rabbit_attributes_build(array $data) || This function helper you to build a html attributes list, you give one associative array containing attributes data and this method returns a string containing html attributes ||
