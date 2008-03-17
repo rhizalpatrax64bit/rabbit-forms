@@ -7,6 +7,10 @@
 
 This field provides a upload way to send files by form into server, and save file name at table field.
 
+== Configuration ==
+
+To configure where files will be placed after send, check the rabbit forms configuration file at application configuration files.
+
 == Attributes ==
 
 || *Attribute* || *Description* || *Example* ||
