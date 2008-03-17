@@ -3,7 +3,7 @@
 
 = Fields =
 
-The fields is the soul of forms, and Rabbit Forms provide a great gama of fields to use, and offer a high customizable field abstract class to implement your own fields, see the list of built-in Rabbit Forms fields below.
+The fields is the soul of forms, and Rabbit Forms provide a great gamma of fields to use, and offer a high customizable field abstract class to implement your own fields, see the list of built-in Rabbit Forms fields below.
 
 == Field List ==
 
