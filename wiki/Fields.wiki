@@ -1,0 +1,21 @@
+#summary This page is a summary of fields and link to field specific pages
+#labels Phase-Implementation,Featured
+
+= Fields =
+
+The fields is the soul of forms, and Rabbit Forms provide a great gama of fields to use, and offer a high customizable field abstract class to implement your own fields, see the list of built-in Rabbit Forms fields below.
+
+== Field List ==
+
+|| *Field* || *Description* ||
+|| [FieldCheckBox CheckBox] || Simple checkbox field ||
+|| [FieldCheckBoxGroup CheckBoxGroup] || A group of checkbox ||
+|| [FieldDate Date] || Calendar date field ||
+|| [FieldDropDown DropDown] || Simple drop down ||
+|| [FieldFile File] || File upload field ||
+|| [FieldList List] || Abstract list field ||
+|| [FieldRadioGroup RadioGroup] || Radio group field ||
+|| [FieldTextArea TextArea] || Text area field ||
+|| [FieldTextBox TextBox] || Text box field ||
+
+Don't found a field for your needs? [FieldExtend Implement it]!
