@@ -1,0 +1,16 @@
+#summary This page describle how to use RadioGroup field
+#labels Phase-Implementation
+
+= !RadioGroup Field =
+
+== Description ==
+
+This field is a list of radio buttons where user will select one option and the value will be stored on database.
+
+This field extends the [FieldList List] field, see [FieldList List Field] description to know how to fill this field data.
+
+== Attributes ==
+
+|| *Attribute* || *Description* || *Example* ||
+|| class || This attribute defines a class to be added to textarea html || checkboxClass ||
+|| style || This attribute defines a inline style to be added to textarea html || border: 0; ||
