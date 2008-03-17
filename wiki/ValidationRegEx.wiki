@@ -1,0 +1,13 @@
+#summary This page describe how to use Compare Validation
+#labels Phase-Implementation
+
+= !RegEx Validation =
+
+== Description ==
+
+This validation check value of field and try to match using _preg_math()_ method pattern.
+
+== Attributes ==
+
+|| *Attribute* || *Description* || *Example* ||
+|| pattern || The pattern used to validate field value || /\d{2}\/\d{2}\/\d{4}/ ||
