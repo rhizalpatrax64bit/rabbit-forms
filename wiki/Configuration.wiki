@@ -7,7 +7,7 @@ Rabbit Forms is a high customizable library, and the configuration is the soul t
 
 == Configuration Array ==
 
-The configuration is nothing more than an n-leved array, but to work it needs to follow a pattern, let's the skeleton of config pattern:
+The configuration is nothing more than an n-leveled array, but to work it needs to follow a pattern, let's the skeleton of configuration pattern:
 
 {{{
 table: table_name
@@ -71,38 +71,38 @@ $config = array(
 );
 }}}
 
-I think you understand. In most cases you will use an YAML file to create config (because you write to less using) but you can use config arrays to create a more dynamic configuration.
+I think you understand. In most cases you will use an YAML file to create configuration (because you write to less using) but you can use configuration arrays to create a more dynamic configuration.
 
-Let's see what is the base config data:
+Let's see what is the base configuration data:
 
 || *Configuration* || *Description* || *Required* ||
 || table || the table that will be used to make CRUD || true ||
 || primary_key || the primary key field of table, this will be used to edit and other internal things || false ||
-|| form || this configuration mantain the form configuration, see more bellow || false ||
-|| fields || this mantais fields configuration, see more bellow || true ||
-|| retrive || this mantains the retrival configuration (more bellow too =P) || true ||
-|| redirect || the path to redirect after form successfull operation (create or edit) || false ||
+|| form || this configuration maintain the form configuration, see more bellow || false ||
+|| fields || this maintains fields configuration, see more bellow || true ||
+|| retrive || this maintains the retrieval configuration (more bellow too =P) || true ||
+|| redirect || the path to redirect after form successfully operation (create or edit) || false ||
 
 == Form Configuration ==
 
-The form configuration defines the form behaivor, the propeties to configure is:
+The form configuration defines the form behavior, the properties to configure is:
 
 || *Configuration* || *Description* || *Required* ||
-|| type || This propertie defines form class to use to manager form, in most cases you don't need to change this because default form classe can supply many cases, but if you need a form level validation or do custom operations you will extend the form class to wherever you want || false ||
-|| hidden || This propertie set hidden fields to pass into form, you can define how many hidden fields you want || false ||
-|| automatic_assets || This propertie defines if form load the assets of fields automatic, if you set this propertie to false, you will need to manually load assets (scripts and styles) to fields that need them || false ||
-|| view || This propertie configures the view of form (the template to display data), read more at view configuration || false ||
+|| type || This property defines form class to use to manager form, in most cases you don't need to change this because default form class can supply many cases, but if you need a form level validation or do custom operations you will extend the form class to wherever you want || false ||
+|| hidden || This property set hidden fields to pass into form, you can define how many hidden fields you want || false ||
+|| automatic_assets || This property defines if form load the assets of fields automatic, if you set this property to false, you will need to manually load assets (scripts and styles) to fields that need them || false ||
+|| view || This property configures the view of form (the template to display data), read more at view configuration || false ||
 
 == Field Configuration ==
 
 The fields array configuration is a key based configuration, the key will be the name of field in table, and for each field you can configure:
 
 || *Configuration* || *Description* || *Required* ||
-|| type || The type of field, this propertie set the field behaivor || true ||
+|| type || The type of field, this property set the field behavior || true ||
 || label || The label of field || true ||
 || value || The default value of field (note: if you were in form edit, this value will be replaced by real value of field in row || false ||
-|| persist || This propertie defines if this field will be persisted in database or not (note: before save data into database, rabbit forms filter the fields to add only valid fields, use this propertie only if you has a valid field that will not be stored) || false ||
-|| params || Associative array that define field params (see valid params of specific field types) || false ||
+|| persist || This property defines if this field will be persisted in database or not (note: before save data into database, rabbit forms filter the fields to add only valid fields, use this property only if you has a valid field that will not be stored) || false ||
+|| params || Associative array that define field parameters (see valid parameters of specific field types) || false ||
 || validators || Validators of field (see more bellow) || false ||
 
 == Validator Configuration ==
@@ -111,29 +111,31 @@ Validators can be configured for each field, see base validators configuration:
 
 || *Configuration* || *Description* || *Required* ||
 || type || Type of validator || true ||
-|| params || Params of validator (see valid params for each specific validator) || false ||
+|| params || Parameters of validator (see valid parameters for each specific validator) || false ||
 
-== Retrive Configuration ==
+== Retrieve Configuration ==
 
-This configuration defines the behaivor of retrive action:
+This configuration defines the behavior of retrieve action:
 
 || *Configuration* || *Description* || *Required* ||
-|| fields || Array containing fields to display in retrival || true ||
-|| view || This propertie configures the view of retrival (the template to display data), read more at view configuration || false ||
+|| manage || The target controller to manage form data (is important to finish this string with a slash) || controller/method/ ||
+|| remove || The target controller to delete form data (is important to finish this string with a slash) || controller/removeMethod/ ||
+|| fields || Array containing fields to display in retrieval || true ||
+|| view || This property configures the view of retrieval (the template to display data), read more at view configuration || false ||
 
 == View Configuration ==
 
-The view configuration set the behaivor of a view:
+The view configuration set the behavior of a view:
 
 || *Configuration* || *Description* || *Required* ||
 || template || Template path of the view || true ||
-|| params || Associative array that defines view params (see valid params for each specific view) || false ||
+|| params || Associative array that defines view parameters (see valid parameters for each specific view) || false ||
 
 == Default Configuration ==
 
 Ok, now you know about configuration properties, but you need to know how configuration works.
 
-Rabbit Forms use a default configuration ever, and extends this default with your configuration, if any of your configuration keys conflits with default configuration, them your configuration will replace the defaults. You can see and change the default configuration at Rabbit Forms configuration file in: application/config/rabbit-forms.php
+Rabbit Forms use a default configuration ever, and extends this default with your configuration, if any of your configuration keys conflicts with default configuration, them your configuration will replace the defaults. You can see and change the default configuration at Rabbit Forms configuration file in: application/config/rabbit-forms.php
 
 == And... ==
 
