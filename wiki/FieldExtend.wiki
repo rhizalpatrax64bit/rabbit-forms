@@ -7,6 +7,16 @@ Rabbit Forms field extension is one of greatest features of the library, this ab
 
 To create new fields, you first need to understand how the Rabbit Form fields works. You will know about base class Rabbit_Field that is the base of all Rabbit Fields, any fields that you create needs to extend this class, or extend one that extends it.
 
+== Field name pattern ==
+
+All fields that you create need to be named like: Rabbit_Field_FieldName
+
+By default, Rabbit Forms will search for fields into application/rabbit-forms/lib/Rabbit/Field
+
+It's not a good ideia to put your custom fields at this folder because this will mix with default fields and this can cause confusion. You can add more folders to search for fields at rabbit forms configuration file, this configuration is one array and you can add how many folders as you need.
+
+note: the folders added in classpath will not be recusive scaned, and you need to add subfolders if you want to use then.
+
 == Field Composition ==
 
 All Rabbit Forms fields is composed of:
