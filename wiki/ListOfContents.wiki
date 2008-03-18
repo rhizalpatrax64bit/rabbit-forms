@@ -4,8 +4,9 @@
 = List of Contents =
 
   # Code Igniter Addons
-   # [RabbitLanguage Rabbit Language]
    # [RabbitHelpers Rabbit Helpers]
+   # [RabbitLanguage Rabbit Language]
+   # [RabbitFormsLibrary Rabbit Library]
   # [Configuration Configuration]
   # [Fields Fields]
    # Fields List
