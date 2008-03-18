@@ -1,5 +1,5 @@
 #summary This page describes how to customize templates of Rabbit Forms to make it appropriated to your site
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 = Rabbit Form Templates =
 
