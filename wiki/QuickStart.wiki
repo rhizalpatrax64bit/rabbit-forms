@@ -5,6 +5,8 @@
 
 Let's build a form with Rabbit Forms!
 
+First you need to install Rabbit Forms, if it's not installed see [Installing installing wiki page].
+
 The process to create a form is very simple, you only need to has a table into database, create a configuration file and then use Rabbit Forms to display this data, let's create a sample form:
 
 users.yml
