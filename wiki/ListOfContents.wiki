@@ -3,11 +3,12 @@
 
 = List of Contents =
 
+  # [Installing Installing Rabbit Forms]
+  # [Configuration Configuration]
   # Code Igniter Addons
    # [RabbitHelpers Rabbit Helpers]
    # [RabbitLanguage Rabbit Language]
    # [RabbitFormsLibrary Rabbit Library]
-  # [Configuration Configuration]
   # [Fields Fields]
    # Fields List
     # [FieldCheckBox CheckBox]
@@ -20,9 +21,6 @@
     # [FieldTextArea TextArea]
     # [FieldTextBox TextBox]
    # [FieldExtend Field Extending]
-  # [RabbitForm Form]
-   # [FormExtend Form Extending]
-  # [Templating Templating]
   # [Validations Validations]
    # Validators List
     # [ValidationCompare Compare]
@@ -31,3 +29,6 @@
     # [ValidationRegEx RegEx]
     # [ValidationRequired Required]
    # [ValidationExtend Validator Extending]
+  # [Templating Templating]
+  # [RabbitForm Form]
+   # [FormExtend Form Extending]
