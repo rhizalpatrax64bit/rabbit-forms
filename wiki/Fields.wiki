@@ -1,5 +1,5 @@
 #summary This page is a summary of fields and link to field specific pages
-#labels Phase-Implementation,Featured
+#labels Phase-Implementation
 
 = Fields =
 
