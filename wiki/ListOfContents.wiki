@@ -30,5 +30,5 @@
     # [ValidationRequired Required]
    # [ValidationExtend Validator Extending]
   # [Templating Templating]
-  # [RabbitForm Form]
+  # Form
    # [FormExtend Form Extending]
