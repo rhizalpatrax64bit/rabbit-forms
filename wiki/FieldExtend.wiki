@@ -5,7 +5,7 @@
 
 Rabbit Forms field extension is one of greatest features of the library, this ables you to create full customized fields as you want.
 
-To create new fields, you first need to understand how the Rabbit Form fields works. You will know about base class Rabbit_Field that is the base of all Rabbit Fields, any fields that you create needs to extend this class, or extend one that extends it.
+To create new fields, you first need to understand how the Rabbit Form fields works. You will know about base class !Rabbit_Field that is the base of all Rabbit Fields, any fields that you create needs to extend this class, or extend one that extends it.
 
 == Field name pattern ==
 
