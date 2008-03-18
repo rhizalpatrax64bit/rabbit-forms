@@ -9,7 +9,7 @@ To create new fields, you first need to understand how the Rabbit Form fields wo
 
 == Field name pattern ==
 
-All fields that you create need to be named like: Rabbit_Field_FieldName
+All fields that you create need to be named like: !Rabbit_Field_FieldName
 
 By default, Rabbit Forms will search for fields into application/rabbit-forms/lib/Rabbit/Field
 
