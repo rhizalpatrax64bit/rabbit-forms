@@ -1,4 +1,13 @@
 #labels Featured
+== Beta 1.0.2 ==
+
+  * New: Foreign Field
+  * New: editId propertie into Rabbit_Form class
+  * Change: getShortValue is replaced to getDisplayValue into Rabbit_Field class
+  * Fixed: code doc of factory method into Rabbit_Form_Factory class is fixed
+  * Fixed: string to get table for retrive is fixed (before it's missing `` and this causes errors when a table uses a reserved name)
+  * Refactor: refactor under Rabbit Forms CI Library
+
 == Beta 1.0.1 ==
 
   * Changed all named "retrive" to "retrieve" (correct spelling)
