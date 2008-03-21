@@ -16,6 +16,7 @@
     # [FieldDate Date]
     # [FieldDropDown DropDown]
     # [FieldFile File]
+    # [FieldForeign Foreign] *new*
     # [FieldList List]
     # [FieldRadioGroup RadioGroup]
     # [FieldTextArea TextArea]
