@@ -13,6 +13,8 @@ The configuration is nothing more than an n-leveled array, but to work it needs 
 table: table_name
 primary_key: primary_key_of_table
 form:
+    prechange: preChangeCallback
+    validation: functionValidation
     type: formtype
     hidden:
         hiddenField: value
@@ -41,6 +43,13 @@ fields:
         type: Type
         label: Label
 retrieve:
+    orderby: name
+    pagination:
+        base_url: controller/base/
+        per_page: 10
+    filters:
+        -name like 'a%'
+        -price > 30
     manage: controller/method/
     remove: controller/method/
     fields:
@@ -92,6 +101,15 @@ The form configuration defines the form behavior, the properties to configure is
 || hidden || This property set hidden fields to pass into form, you can define how many hidden fields you want || false ||
 || automatic_assets || This property defines if form load the assets of fields automatic, if you set this property to false, you will need to manually load assets (scripts and styles) to fields that need them || false ||
 || view || This property configures the view of form (the template to display data), read more at view configuration || false ||
+|| validation || This property accepts one string containing a callback function to be called to validate form at all, this function needs to be defined in the currect !CodeIgniter control and returns true if the form is valid and false otherwise, the callback function may have this signature: *public function my_validator(!Rabbit_Form $form)*. If the form fails, to send a message to user, use this: *$form->setValidationMessage('user message')*|| false ||
+|| preinsert || This property accepts one string containing a callback function to be called to do any operation before insert a new record, this function needs to be defined into current !CodeIgniter controller || false ||
+|| postinsert || This property accepts one string containing a callback function to be called to do any operation after insert a new record, this function needs to be defined into current !CodeIgniter controller || false ||
+|| preupdate || This property accepts one string containing a callback function to be called to do any operation before update a record, this function needs to be defined into current !CodeIgniter controller || false ||
+|| postupdate || This property accepts one string containing a callback function to be called to do any operation after update a record, this function needs to be defined into current !CodeIgniter controller || false ||
+|| prechange || This property accepts one string containing a callback function to be called to do any operation before change a record (this is fired on insert and update), this function needs to be defined into current !CodeIgniter controller || false ||
+|| postchange || This property accepts one string containing a callback function to be called to do any operation after change a record (this is fired on insert and update), this function needs to be defined into current !CodeIgniter controller || false ||
+|| predelete || This property accepts one string containing a callback function to be called to do any operation before delete a record, this function needs to be defined into current !CodeIgniter controller || false ||
+|| postdelete || This property accepts one string containing a callback function to be called to do any operation after delete a record, this function needs to be defined into current !CodeIgniter controller || false ||
 
 == Field Configuration ==
 
@@ -122,6 +140,9 @@ This configuration defines the behavior of retrieve action:
 || remove || The target controller to delete form data (is important to finish this string with a slash) || controller/removeMethod/ ||
 || fields || Array containing fields to display in retrieval || true ||
 || view || This property configures the view of retrieval (the template to display data), read more at view configuration || false ||
+|| orderby || This property configure the field to be used to sort data into view || false ||
+|| pagination || This property allows you to configure a pagination for data, this attributes accepts one array containing pagination configuration, the required field is only _base_url_ and _per_page_, this pagination uses CodeIgniter pagination library and you can use any attributes of this library to configure pagination || false ||
+|| filters || You can use this attribute to filter data to be displayed into retrieve view, the value of this field is a numeric array, each element of array is one where expression to be used in the query and the filters will be joined with _and_ operator. || false ||
 
 == View Configuration ==
 
