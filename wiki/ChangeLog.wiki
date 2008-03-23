@@ -1,4 +1,18 @@
 #labels Featured
+== Beta 1.0.3 ==
+
+  * New: orderby at retrieve configuration
+  * New: pagination at retrieve configuration
+  * New: filters at retrieve configuration
+  * New: checkboxgroup field now returns comma separated string with the title values of selected items in displayValue
+  * New: form level validation without extending
+  * New: form events
+  * New: rabbit form configuration extends
+  * Change: list field types now return title in displayValue instead of a raw value
+  * Fixed: rabbit_array_merge behavior
+  * Fixed: checkbox field initialization value
+  * Fixed: foreign field when no data sent
+
 == Beta 1.0.2 ==
 
   * New: Foreign Field
