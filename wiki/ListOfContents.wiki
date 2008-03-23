@@ -4,11 +4,11 @@
 = List of Contents =
 
   # [Installing Installing Rabbit Forms]
-  # [Configuration Configuration]
+  # [Configuration Configuration] *updated!*
   # Code Igniter Addons
    # [RabbitHelpers Rabbit Helpers]
    # [RabbitLanguage Rabbit Language]
-   # [RabbitFormsLibrary Rabbit Library]
+   # [RabbitFormsLibrary Rabbit Library] *updated!*
   # [Fields Fields]
    # Fields List
     # [FieldCheckBox CheckBox]
