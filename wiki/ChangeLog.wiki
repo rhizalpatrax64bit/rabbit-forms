@@ -1,4 +1,15 @@
 #labels Featured
+== Beta 1.0.4 ==
+
+  * New: Image Field
+  * New: date can display a value and save another
+  * New: list fields accepts orderby and filters at dbsource
+  * New: validator base class properties is now exposed
+  * New: callback validator
+  * Change: redirect is removed from configuration
+  * Fix: File field to don't remove files in update (in case of a new file sent)
+  * Fix: form doc at getField
+
 == Beta 1.0.3 ==
 
   * New: orderby at retrieve configuration
