@@ -51,7 +51,7 @@ retrieve:
         -name like 'a%'
         -price > 30
     manage: controller/method/
-    remove: controller/method/
+    delete: controller/method/
     fields:
         -field_name
         -anotherField
@@ -60,7 +60,6 @@ retrieve:
         params:
             param1: value
             param2: value
-redirect: 'form_redirect'
 }}}
 
 Wow!! Is big!
