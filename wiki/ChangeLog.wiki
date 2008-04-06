@@ -1,4 +1,14 @@
 #labels Featured
+== Beta 1.0.5 ==
+
+  * New: Html editor (using TinyMCE)
+  * New: File Validator
+  * New: Unique Validator
+  * Change: Image field auto-add image extensions valitador
+  * Change: by default the textfield and textarea doesn't accept html (using htmlentities to reject)
+  * Fix: retrieve name at foreign retrieveView
+  * Fix: unique validator when editing current row
+
 == Beta 1.0.4 ==
 
   * New: Image Field
