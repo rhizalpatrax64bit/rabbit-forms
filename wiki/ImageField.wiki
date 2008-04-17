@@ -5,7 +5,7 @@
 
 == Description ==
 
-This field is an extension of [FileField File] field, but this field has some helpers to image files. This field automatic insert a file validation to accept only image file types, and you can do resize operations on images direct from configuration without any code, and when you are retrieving data, this fields will display a image into retrieve instead only the name of file.
+This field is an extension of [FieldFile File] field, but this field has some helpers to image files. This field automatic insert a file validation to accept only image file types, and you can do resize operations on images direct from configuration without any code, and when you are retrieving data, this fields will display a image into retrieve instead only the name of file.
 
 == External resources ==
 
