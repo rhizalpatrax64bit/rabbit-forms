@@ -4,11 +4,11 @@
 = List of Contents =
 
   # [Installing Installing Rabbit Forms]
-  # [Configuration Configuration] *updated!*
+  # [Configuration Configuration]
   # Code Igniter Addons
    # [RabbitHelpers Rabbit Helpers]
    # [RabbitLanguage Rabbit Language]
-   # [RabbitFormsLibrary Rabbit Library] *updated!*
+   # [RabbitFormsLibrary Rabbit Library]
   # [Fields Fields]
    # Fields List
     # [FieldCheckBox CheckBox]
@@ -16,7 +16,8 @@
     # [FieldDate Date]
     # [FieldDropDown DropDown]
     # [FieldFile File]
-    # [FieldForeign Foreign] *new*
+    # [FieldForeign Foreign]
+    # [FieldImage Image] *new*
     # [FieldList List]
     # [FieldRadioGroup RadioGroup]
     # [FieldTextArea TextArea]
