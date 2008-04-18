@@ -25,11 +25,14 @@
    # [FieldExtend Field Extending]
   # [Validations Validations]
    # Validators List
+    # [ValidationCallback Callback] *new*
     # [ValidationCompare Compare]
     # [ValidationEmail Email]
+    # [ValidationFile File] *new*
     # [ValidationLength Length]
     # [ValidationRegEx RegEx]
     # [ValidationRequired Required]
+    # [ValidationUnique Unique] *new*
    # [ValidationExtend Validator Extending]
   # [Templating Templating]
   # Form
