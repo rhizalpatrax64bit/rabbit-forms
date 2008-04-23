@@ -10,10 +10,13 @@ The validations has an important task to do, validate the field values. Rabbit F
 This is a list of Rabbit Forms validations, click at validation name for see details.
 
 || *Validation* || *Description* ||
+|| [ValidationCallback Callback] || Simple customizable validator ||
 || [ValidationCompare Compare] || This validation operate on fields and make comparatives with then ||
 || [ValidationEmail Email] || This is a simple e-mail pattern validation ||
+|| [ValidationFile File] || Do validation operations in file fields ||
 || [ValidationLength Length] || This validation check for length restrictions in field value ||
 || [ValidationRegEx RegEx] || This validation check for pattern restrictions in field value ||
 || [ValidationRequired Required] || This validation force user to input data into field ||
+|| [ValidationUnique Unique] || Rejects duplicated values into same field ||
 
 Don't found a validation for your needs? [ValidationExtend Implement it]!

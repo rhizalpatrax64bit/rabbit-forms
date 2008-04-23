@@ -17,11 +17,12 @@
     # [FieldDropDown DropDown]
     # [FieldFile File]
     # [FieldForeign Foreign]
+    # [FieldHtml Html] *new*
     # [FieldImage Image] *new*
     # [FieldList List]
     # [FieldRadioGroup RadioGroup]
     # [FieldTextArea TextArea]
-    # [FieldTextBox TextBox]
+    # [FieldTextBox TextBox] *updated*
    # [FieldExtend Field Extending]
   # [Validations Validations]
    # Validators List

@@ -16,6 +16,8 @@ This is a list of Rabbit Forms fields, click at field name for see details.
 || [FieldDropDown DropDown] || Simple drop down ||
 || [FieldFile File] || File upload field ||
 || [FieldForeign Foreign] || Foreign field for relational data ||
+|| [FieldHtml Html] || WYSIWYG HTML Editor ||
+|| [FieldImage Image] || File upload with some specifique treatments for images ||
 || [FieldList List] || Abstract list field ||
 || [FieldRadioGroup RadioGroup] || Radio group field ||
 || [FieldTextArea TextArea] || Text area field ||
