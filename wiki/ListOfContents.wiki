@@ -6,7 +6,7 @@
   # [Installing Installing Rabbit Forms]
   # [Configuration Configuration]
   # Code Igniter Addons
-   # [RabbitHelpers Rabbit Helpers]
+   # [RabbitHelpers Rabbit Helpers] *updated*
    # [RabbitLanguage Rabbit Language]
    # [RabbitFormsLibrary Rabbit Library]
   # [Fields Fields]

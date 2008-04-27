@@ -10,3 +10,5 @@ Rabbit Forms come with a helper file that provides little helper functions, this
 || array rabbit_filter_fields(string $table, array $data) || This function get the fields of table in first argument, and use this to filter elements of array passed in second argument, this results in array containing only valid field names that passed into second argument ||
 || array rabbit_filter_db_data(string $table, array $data) || This function work as above, but this function filter a associative array data and maintains only valid rows ||
 || string rabbit_attributes_build(array $data) || This function helper you to build a html attributes list, you give one associative array containing attributes data and this method returns a string containing html attributes ||
+|| string rabbit_json_encode(mixed $data) || Create a JSON notation based on data passed ||
+|| string rabbit_pathinfo($path[, $options]) || Get information about path (this method works like php *pathinfo* but supports filename for php versions before 5.2) ||
