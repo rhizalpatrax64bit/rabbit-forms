@@ -1,5 +1,7 @@
 #summary Quick start with Rabbit Forms
-#labels Featured,Phase-Implementation
+#labels Phase-Implementation
+
+= Warning: this page is outdated and will be changed, please dis consider this page until this warning is removed. =
 
 = Quick Start =
 
