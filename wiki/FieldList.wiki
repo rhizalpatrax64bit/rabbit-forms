@@ -45,6 +45,7 @@ The database source is a powerfully attribute that get a data from one database 
 || title || The field in table where script keep the item title || country_name ||
 || value || The field in table where script keep the item value || country_id ||
 || orderby || Optional field to set's data sorting || country_name asc ||
+|| filters || Optional filters to restrict data || _see below_ ||
 
 Example:
 
@@ -59,6 +60,8 @@ fields:
                 title: country_name
                 value: country_id
                 orderby: country_name asc
+                filters:
+                    -active = 1
 }}}
 
 ps: the _asc_ can be omitted
